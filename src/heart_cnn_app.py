@@ -13,8 +13,8 @@ NUM_CLASSES = 4
 disease_mapping = {0: 'coronary artery disease', 1: 'angina disease', 2: 'hypotension disease', 3: 'cardio vascular disease'}
 
 # Load the saved model and KMeans model
-model = tf.keras.models.load_model('/workspaces/HEART_CNN/heart_disease_model.h5')
-kmeans = joblib.load('/workspaces/HEART_CNN/kmeans_model.pkl')
+model = tf.keras.models.load_model('/workspaces/HEART_CNN/HEART_CNN_clean/src/heart_disease_model.h5')
+kmeans = joblib.load('/workspaces/HEART_CNN/HEART_CNN_clean/src/kmeans_model.pkl')
 
 # Initialize Flask app
 app = Flask(__name__)
