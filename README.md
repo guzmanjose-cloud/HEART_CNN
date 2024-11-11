@@ -34,3 +34,38 @@ Features
     Dimensionality Reduction: Utilizes PCA and t-SNE for visualizing image clusters.
     Web Application: A Flask/Render-based web app to allow users to upload images and receive heart disease predictions.
     Deployment: The application is deployed using Render with Gunicorn as the server.
+
+Setup and Installation
+
+    1. Clone the repository:
+
+    2. git clone https://github.com/your-username/Heart_CNN.git
+
+    3. Navigate to the project directory:
+
+    4. cd Heart_CNN
+
+    5. Install the required packages:
+
+    6. pip install -r requirements.txt
+
+    7. Run the web application:
+
+    8. gunicorn src.heart_cnn_app:app
+
+Usage
+
+    Open the deployed web application.
+    Upload a heart image.
+    The model will predict the type of heart disease based on the uploaded image and display the result.
+
+Results
+
+    The CNN model is trained to classify images into specific heart disease types, achieving high accuracy on JPEG files and progressively improved accuracy on PNG files.
+    Clustering visualizations are generated using PCA and t-SNE to show distinct clusters in the data.
+
+Future Work
+
+    Improve the model's performance on PNG images.
+    Integrate additional heart disease types and expand the dataset.
+    Optimize the web application interface for better user experience.
