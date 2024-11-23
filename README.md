@@ -53,6 +53,8 @@ Setup and Installation
 
     8. gunicorn src.heart_cnn_app:app
 
+    9. download dataset if needed from https://www.kaggle.com/datasets/kriegmann/echocardiogramekg-dataset
+
 Usage
 
     Open the deployed web application.
